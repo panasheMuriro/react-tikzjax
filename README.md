@@ -2,6 +2,12 @@
 
 A React component for rendering LaTeX TikZ diagrams using the TikZJax library.
 
+DEMO LINK: https://react-tikzjax-demo.pages.dev/
+
+<img width="2600" height="1000" alt="project_cover" src="https://github.com/user-attachments/assets/95294546-02f1-495f-b4f2-a47878bffaa7" />
+
+
+
 ## Installation
 
 ```bash
