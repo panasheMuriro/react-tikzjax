@@ -1,0 +1,52 @@
+{
+  "name": "react-tikzjax",
+  "version": "1.0.0",
+  "description": "React component for rendering LaTeX TikZ diagrams using TikZJax",
+  "type": "module", 
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/react-tikzjax.umd.cjs",
+  "module": "./dist/react-tikzjax.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/react-tikzjax.mjs",
+      "require": "./dist/react-tikzjax.umd.cjs"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vite": "^4.4.0"
+  },
+  "keywords": [
+    "react",
+    "tikz",
+    "latex",
+    "math",
+    "diagrams",
+    "tikzjax"
+  ],
+  "author": "Panashe Muriro",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/react-tikzjax.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/react-tikzjax/issues"
+  },
+  "homepage": "https://github.com/yourusername/react-tikzjax#readme"
+}
