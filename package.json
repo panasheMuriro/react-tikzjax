@@ -1,28 +1,28 @@
 {
   "name": "react-tikzjax",
-  "version": "1.0.0",
+  "version": "1.0.9",
   "description": "React component for rendering LaTeX TikZ diagrams using TikZJax",
-  "type": "module", 
+  "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/react-tikzjax.umd.cjs",
-  "module": "./dist/react-tikzjax.mjs",
-  "exports": {
-    ".": {
-      "import": "./dist/react-tikzjax.mjs",
-      "require": "./dist/react-tikzjax.umd.cjs"
-    }
-  },
-  "types": "./dist/index.d.ts",
+  "main": "./dist/react-tikzjax.umd.js",
+"module": "./dist/react-tikzjax.es.js",
+"exports": {
+  ".": {
+    "import": "./dist/react-tikzjax.es.js",
+    "require": "./dist/react-tikzjax.umd.js",
+    "types": "./dist/index.d.ts"
+  }
+},
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && cp src/index.d.ts dist/",
     "preview": "vite preview"
   },
   "peerDependencies": {
-    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
-    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
@@ -37,13 +37,14 @@
     "latex",
     "math",
     "diagrams",
-    "tikzjax"
+    "tikzjax",
+    "typescript"
   ],
   "author": "Panashe Muriro",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "hhttps://github.com/panasheMuriro/react-tikzjax"
+    "url": "https://github.com/panasheMuriro/react-tikzjax"
   },
   "bugs": {
     "url": "https://github.com/panasheMuriro/react-tikzjax/issues"
