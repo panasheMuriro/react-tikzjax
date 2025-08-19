@@ -43,10 +43,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/react-tikzjax.git"
+    "url": "hhttps://github.com/panasheMuriro/react-tikzjax"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/react-tikzjax/issues"
+    "url": "https://github.com/panasheMuriro/react-tikzjax/issues"
   },
-  "homepage": "https://github.com/yourusername/react-tikzjax#readme"
+  "homepage": "https://github.com/panasheMuriro/react-tikzjax#readme"
 }
